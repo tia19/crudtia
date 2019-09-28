@@ -1,9 +1,9 @@
-=-- phpMyAdmin SQL Dump
+-- phpMyAdmin SQL Dump
 -- version 4.9.0.1
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Sep 28, 2019 at 11:44 AM
+-- Generation Time: Sep 28, 2019 at 02:03 PM
 -- Server version: 10.3.16-MariaDB
 -- PHP Version: 7.3.7
 
@@ -41,9 +41,9 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`id`, `nama`, `username`, `password`, `email`) VALUES
-(7, 'yuyu', 'tia', 't', 'tiaa@gmail.com'),
-(25, 'SSSSSSSSSSSS2313123', 'SSSSSSSSSSSSS', 'SSSSSSSS', 'SSSSSSSSSSSSSS'),
-(26, 'WWWWWWWWWWQ11', '1111111111', '11111111', '111111111111111111111');
+(7, 'tia', 'tia', '12345678', 'tia@gmail.com'),
+(30, 'xxxx', 'xxx', 'xxxxxxxx', 'x@gmail.com'),
+(32, 'xf', 'ff', 'fff', 'fauzi@gmail.com');
 
 --
 -- Indexes for dumped tables
@@ -63,7 +63,7 @@ ALTER TABLE `user`
 -- AUTO_INCREMENT for table `user`
 --
 ALTER TABLE `user`
-  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=27;
+  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=33;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
